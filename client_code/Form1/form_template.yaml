@@ -7,7 +7,31 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+  components: []
+- name: label_1
+  properties: {text: 'System for Ontology Learning & Extraction '}
+  type: Label
+  layout_properties: {slot: title}
+- name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: left-nav}
+  components:
+  - name: link_1
+    properties: {text: Contact}
+    type: Link
+    layout_properties: {grid_position: 'NLFJLC,EIQRCX'}
+    event_bindings: {click: link_1_click}
+  - name: link_2
+    properties: {text: About, align: left}
+    type: Link
+    layout_properties: {grid_position: 'PUEEGT,VXHXBC'}
+  - name: link_3
+    properties: {text: 'Sign Up/Login '}
+    type: Link
+    layout_properties: {grid_position: 'SWJFML,RWZFJH'}

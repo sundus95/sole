@@ -1,7 +1,11 @@
 allow_embedding: false
-package_name: Material_Design_2
-name: Material Design 2
+package_name: SOLE
+name: SOLE
 startup_form: Form1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-services: []
+metadata: {title: SOLE}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
