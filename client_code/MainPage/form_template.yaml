@@ -25,13 +25,14 @@ components:
   - name: link_1
     properties: {text: Contact}
     type: Link
-    layout_properties: {grid_position: 'NLFJLC,EIQRCX'}
+    layout_properties: {grid_position: 'KUWUXP,REOLFV'}
     event_bindings: {click: link_1_click}
   - name: link_2
     properties: {text: About, align: left}
     type: Link
     layout_properties: {grid_position: 'PUEEGT,VXHXBC'}
+    event_bindings: {click: link_2_click}
   - name: link_3
     properties: {text: 'Sign Up/Login '}
     type: Link
-    layout_properties: {grid_position: 'SWJFML,RWZFJH'}
+    layout_properties: {grid_position: 'BDPHOC,DXQBWN'}

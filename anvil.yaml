@@ -1,7 +1,8 @@
 allow_embedding: false
 package_name: SOLE
+startup: {type: form, module: MainPage}
 name: SOLE
-startup_form: Form1
+startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: SOLE}

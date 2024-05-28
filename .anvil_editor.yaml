@@ -1,6 +1,8 @@
 unique_ids:
   forms:
-    Form1: UME4OWHD4WIFIYWQQPF6TGQDEQUZDBQG
+    AboutForm: '1716930814470158975048382.48788'
+    ContactForm: '1716930754758514237090921.29834'
+    MainPage: UME4OWHD4WIFIYWQQPF6TGQDEQUZDBQG
   modules: {}
   server_modules: {}
   assets:
