@@ -7,10 +7,66 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: card_1
+    properties: {role: card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'ONFVYU,SFYNBN'}
+    components:
+    - name: headline_1
+      properties: {role: headline, text: 'System for Ontology Learning & Extraction
+          (SOLE) ', align: center, bold: true}
+      type: Label
+      layout_properties: {grid_position: 'IYIVPM,AFLIDK'}
+    - name: rich_text_2
+      properties: {content: 'System for Ontology Learning and Extraction (SOLE) aims
+          to automate hazard-specific ontology construction from knowledge bases of
+          disaster-related information through the use of ontology learning techniques. ',
+        align: center, visible: true, background: 'theme:Secondary 500', foreground: 'theme:Gray
+          900', spacing_above: none, font_size: null}
+      type: RichText
+      layout_properties: {grid_position: 'GJRBCD,NBZIRL'}
+      data_bindings: []
+  - name: card_2
+    properties: {role: card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'OQBGXV,JQXKGB'}
+    components:
+    - name: image_1
+      properties: {source: _/theme/pexels-pixabay-51951.jpg, height: 200}
+      type: Image
+      layout_properties: {grid_position: 'AMOOWC,MTJRNO'}
+    - name: image_2
+      properties: {height: 309, display_mode: shrink_to_fit, source: _/theme/pexels-ralph-w-lambrecht-642090-1446076.jpg}
+      type: Image
+      layout_properties: {grid_position: 'TCNMFI,YIUYDA'}
+  - name: card_3
+    properties: {role: card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'GCMBMI,TFNNCS'}
+    components:
+    - name: rich_text_1
+      properties: {content: '
+
+
+          College of Arts and Sciences
+
+
+          Department of Computer Science
+
+
+          Disaster Informatics & Computational Epidemiology (DICE)
+
+
+          ', align: center, background: 'theme:Secondary 500'}
+      type: RichText
+      layout_properties: {grid_position: 'OOTRQT,IKBXNJ'}
+      components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+  components: []
 - name: label_1
   properties: {text: About}
   type: Label

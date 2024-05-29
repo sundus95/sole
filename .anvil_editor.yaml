@@ -8,6 +8,8 @@ unique_ids:
   server_modules:
     ServerModule1: '1716999912264865015156535.4467'
   assets:
+    pexels-pixabay-51951.jpg: '1717008323596862106313774.7098'
+    pexels-ralph-w-lambrecht-642090-1446076.jpg: '1717008992695406904697469.1946'
     standard-page.html: I44Z4KQUTC2HKAIAVWTMK5L3GUQDGBOG
     theme.css: JHATFAFEKAHXUSXGD3HUQZ7QDGWVNY6J
   scripts: {}
