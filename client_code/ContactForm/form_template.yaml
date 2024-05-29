@@ -15,3 +15,39 @@ components:
   properties: {}
   type: ColumnPanel
   layout_properties: {slot: default}
+  components:
+  - name: name
+    properties: {text: 'Name: ', bold: true, italic: false, underline: false, align: left,
+      background: '', icon: ''}
+    type: Label
+    layout_properties: {grid_position: 'WTAUON,EPJSNO'}
+    data_bindings: []
+  - name: name_box
+    properties: {placeholder: name_box}
+    type: TextBox
+    layout_properties: {grid_position: 'WTAUON,VARXED'}
+  - name: email
+    properties: {text: 'Email: '}
+    type: Label
+    layout_properties: {grid_position: 'MDARFA,BDNLCF'}
+  - name: email_box
+    properties: {placeholder: email_box}
+    type: TextBox
+    layout_properties: {grid_position: 'MDARFA,QNEMVG'}
+  - name: help
+    properties: {text: 'How can we help?'}
+    type: Label
+    layout_properties: {grid_position: 'BJCUXF,KUGART'}
+  - name: help_box
+    properties: {placeholder: help_box}
+    type: TextBox
+    layout_properties: {grid_position: 'BJCUXF,SQNZOX'}
+  - name: submit_button
+    properties: {text: Submit}
+    type: Button
+    layout_properties: {grid_position: 'UZQONZ,LIAZIA'}
+    event_bindings: {click: submit_button_click}
+  - name: confirmation_label
+    properties: {text: ''}
+    type: Label
+    layout_properties: {grid_position: 'HRFPHS,DBONCQ'}

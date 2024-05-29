@@ -1,12 +1,27 @@
-allow_embedding: false
-package_name: SOLE
-startup: {type: form, module: MainPage}
-name: SOLE
-startup_form: null
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
-metadata: {title: SOLE}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: MainPage}
+package_name: SOLE
+allow_embedding: false
+name: SOLE
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+metadata: {title: SOLE}
+startup_form: null
+db_schema:
+  contactable:
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: email
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: help
+      admin_ui: {width: 200, order: 2}
+      type: string
+    title: contactable
