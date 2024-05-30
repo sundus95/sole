@@ -33,6 +33,6 @@ components:
     layout_properties: {grid_position: 'PUEEGT,VXHXBC'}
     event_bindings: {click: link_2_click}
   - name: link_3
-    properties: {text: 'Sign Up/Login '}
+    properties: {text: 'Sign Up/Login ', align: left}
     type: Link
     layout_properties: {grid_position: 'BDPHOC,DXQBWN'}
