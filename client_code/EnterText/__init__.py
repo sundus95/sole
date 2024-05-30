@@ -12,3 +12,12 @@ class EnterText(EnterTextTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def get_clean_text_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    file = self.file_loader_1.file
+    if file:
+      text = anvil. server.call('extract_text_from_pdf', file)
+      self.clean_text.text = text
+    else:
+      alert("Please upload a pdf file.")

@@ -6,8 +6,14 @@ startup: {type: form, module: MainPage}
 package_name: SOLE
 allow_embedding: false
 name: SOLE
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-sandbox
+  server_spec: {base: python310-machine-learning}
+  server_spec_disabled: {base: python310-machine-learning, requirements: 'fitz
+
+      frontend'}
 metadata: {title: SOLE}
 startup_form: null
 db_schema:

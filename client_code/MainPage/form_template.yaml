@@ -36,3 +36,8 @@ components:
     properties: {text: 'Sign Up/Login ', align: left}
     type: Link
     layout_properties: {grid_position: 'BDPHOC,DXQBWN'}
+  - name: link_4
+    properties: {text: 'Enter PDF File ', align: left}
+    type: Link
+    layout_properties: {grid_position: 'ABRUAS,VLXLZD'}
+    event_bindings: {click: link_4_click}

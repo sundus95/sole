@@ -7,6 +7,20 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: file_loader_1
+    properties: {text: 'Upload PDF File '}
+    type: FileLoader
+    layout_properties: {grid_position: 'MLOCRD,ZFPHFT'}
+  - name: get_clean_text
+    properties: {text: 'Get Clean Text '}
+    type: Button
+    layout_properties: {grid_position: 'WQIHYX,JTTGYH'}
+    event_bindings: {click: get_clean_text_click}
+  - name: clean_text
+    properties: {visible: true}
+    type: TextArea
+    layout_properties: {grid_position: 'BSOCWN,MQSPPZ'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
